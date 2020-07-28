@@ -1,0 +1,54 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Categories on Andrews Blog</title>
+   <link>https://zoom8888.com/categories/</link>
+   <description>Recent content in Categories on Andrews Blog</description>
+   <generator>Hugo -- gohugo.io</generator>
+   
+       <atom:link href="https://zoom8888.com/categories/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+     <item>
+       <title>Create a clickable script</title>
+       <link>https://zoom8888.com/posts/create-clickable-script/</link>
+       <pubDate>Sun, 26 Jul 2020 12:10:58 +1000</pubDate>
+       
+       <guid>https://zoom8888.com/posts/create-clickable-script/</guid>
+       <description>&lt;p&gt;Using Textedit or similar create a file on your Desktop and call it:&lt;/p&gt;
+&lt;p&gt;myscript.command.sh&lt;/p&gt;
+&lt;p&gt;Then enter your lines of code, for example:&lt;br&gt;
+cd /&lt;br&gt;
+open &lt;a href=&#34;https://google.com&#34;&gt;https://google.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can leave out the usual #!/bin/sh part on the first line.&lt;/p&gt;
+&lt;p&gt;Then make it executable, by running chmod from the MacOS Terminal:&lt;br&gt;
+cd /&lt;br&gt;
+cd /users/yourusername/desktop&lt;br&gt;
+chmod +x myscript.command&lt;/p&gt;
+&lt;p&gt;Finally, set it to always open in Terminal by right-clicking on the file, select &amp;ldquo;Get info&amp;rdquo;, select &amp;ldquo;Open with&amp;rdquo; and then select Terminal.&lt;/p&gt;
+&lt;p&gt;Test your shell script by double-clicking on it, you should see Google.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Simple deploy script</title>
+       <link>https://zoom8888.com/posts/deploy-script/</link>
+       <pubDate>Sun, 26 Jul 2020 11:54:42 +1000</pubDate>
+       
+       <guid>https://zoom8888.com/posts/deploy-script/</guid>
+       <description>&lt;h3 id=&#34;a-script-to-automatically-push-to-github-then-deploy-to-netlify&#34;&gt;A script to automatically push to Github, then deploy to Netlify.&lt;/h3&gt;
+&lt;p&gt;To display the code correctly be sure to click the &amp;ldquo;Read more&amp;rdquo; tag below.&lt;/p&gt;
+&lt;p&gt;cd /&lt;br&gt;
+cd /castanet&lt;br&gt;
+hugo&lt;br&gt;
+cd public&lt;br&gt;
+git init&lt;br&gt;
+git add .
+git commit -m &amp;ldquo;first commit&amp;rdquo;&lt;br&gt;
+git remote add origin &lt;a href=&#34;https://github.com/andrew1136/public.git&#34;&gt;https://github.com/andrew1136/public.git&lt;/a&gt;&lt;br&gt;
+git push &amp;ndash;force origin master&lt;/p&gt;
+</description>
+     </item>
+   
+ </channel>
+</rss>
