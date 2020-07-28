@@ -39,15 +39,16 @@ chmod +x myscript.command&lt;/p&gt;
        <guid>https://zoom8888.com/posts/deploy-script/</guid>
        <description>&lt;h3 id=&#34;a-script-to-automatically-push-to-github-then-deploy-to-netlify&#34;&gt;A script to automatically push to Github, then deploy to Netlify.&lt;/h3&gt;
 &lt;p&gt;To display the code correctly be sure to click the &amp;ldquo;Read more&amp;rdquo; tag below.&lt;/p&gt;
-&lt;p&gt;cd /&lt;br&gt;
-cd /castanet&lt;br&gt;
-hugo&lt;br&gt;
-cd public&lt;br&gt;
-git init&lt;br&gt;
-git add .
-git commit -m &amp;ldquo;first commit&amp;rdquo;&lt;br&gt;
-git remote add origin &lt;a href=&#34;https://github.com/andrew1136/public.git&#34;&gt;https://github.com/andrew1136/public.git&lt;/a&gt;&lt;br&gt;
-git push &amp;ndash;force origin master&lt;/p&gt;
+&lt;p&gt;cd /
+cd your_directory
+rm -rf public
+hugo
+git init
+git add public
+git commit -m &amp;lsquo;First commit&amp;rsquo;
+git remote add origin &lt;a href=&#34;https://github.com/github_username/repo_name.git&#34;&gt;https://github.com/github_username/repo_name.git&lt;/a&gt;
+git fetch origin master
+git push -f origin master&lt;/p&gt;
 </description>
      </item>
    
