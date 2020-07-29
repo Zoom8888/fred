@@ -1,0 +1,34 @@
+.menu-bottom {
+margin-left:auto;
+margin-right:auto;
+width:500px;
+padding-left:10px;
+}
+.menu-bottom ul {
+display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3B5998;
+}
+
+.menu-bottom li {
+  float: left;
+}
+
+.menu-bottom li a {
+    color: white;
+  text-align: center;
+  padding: 14px 14px 18px 14px;
+  text-decoration: none;
+}
+.linkcolor a {color:red !important; }
+
+.menu-bottom li a:hover {
+  background-color: #111;
+}
+
+.menu-bottom .active {
+  background-color: red;
+}
