@@ -5,10 +5,46 @@
    <link>https://www.zoom8888.com/posts/</link>
    <description>Recent content in Posts on Andrews Blog</description>
    <generator>Hugo -- gohugo.io</generator>
-   <lastBuildDate>Sun, 26 Jul 2020 12:10:58 +1000</lastBuildDate>
+   <lastBuildDate>Thu, 30 Jul 2020 11:54:42 +1000</lastBuildDate>
    
        <atom:link href="https://www.zoom8888.com/posts/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>Testing it all...</title>
+       <link>https://www.zoom8888.com/posts/testing/</link>
+       <pubDate>Thu, 30 Jul 2020 11:54:42 +1000</pubDate>
+       
+       <guid>https://www.zoom8888.com/posts/testing/</guid>
+       <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://validator.w3.org/&#34;&gt;https://validator.w3.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Check your html for errors.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;http://jigsaw.w3.org/css-validator/&#34;&gt;http://jigsaw.w3.org/css-validator/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Check your CSS files for errors.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.webpagetest.org/&#34;&gt;https://www.webpagetest.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Check site loading speed.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://search.google.com/&#34;&gt;https://search.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Check that your analytics code and sitemap.xml are being read correctly by Google.&lt;/p&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights&#34;&gt;https://developers.google.com/speed/pagespeed/insights&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://search.google.com/test/mobile-friendly&#34;&gt;https://search.google.com/test/mobile-friendly&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://seositecheckup.com/&#34;&gt;https://seositecheckup.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+     </item>
    
      <item>
        <title>Create a clickable script</title>
@@ -57,42 +93,6 @@ Use double quotes only if you are using Windows.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;-f after push means force. Use with caution.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-     </item>
-   
-     <item>
-       <title>Testing it all...</title>
-       <link>https://www.zoom8888.com/posts/testing/</link>
-       <pubDate>Sun, 26 Jul 2020 11:54:42 +1000</pubDate>
-       
-       <guid>https://www.zoom8888.com/posts/testing/</guid>
-       <description>&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://validator.w3.org/&#34;&gt;https://validator.w3.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Check your html for errors.&lt;/p&gt;
-&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;http://jigsaw.w3.org/css-validator/&#34;&gt;http://jigsaw.w3.org/css-validator/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Check your CSS files for errors.&lt;/p&gt;
-&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.webpagetest.org/&#34;&gt;https://www.webpagetest.org/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Check site loading speed.&lt;/p&gt;
-&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;https://search.google.com/&#34;&gt;https://search.google.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Check that your analytics code and sitemap.xml are being read correctly by Google.&lt;/p&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights&#34;&gt;https://developers.google.com/speed/pagespeed/insights&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://search.google.com/test/mobile-friendly&#34;&gt;https://search.google.com/test/mobile-friendly&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://seositecheckup.com/&#34;&gt;https://seositecheckup.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </description>
