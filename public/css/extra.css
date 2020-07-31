@@ -1,4 +1,4 @@
-#container header {border:1px solid black;padding:0px 5px 0px 5px;background:#ffd;}
+#container header {border:0.5px dotted black;padding:0px 5px 0px 5px;background:#ffd;}
 
 #container nav ul li {background:#fff;}
 #container nav ul l1 {color:white;}
@@ -17,6 +17,13 @@ white-space: normal;
     width: 88%;
     height: auto;
     word-wrap: break-word;}
+    .menu-bottom {font-size:12px;}
+    .menu-bottom ul li a{
+    padding: 5px 2px 5px 2px;
+    margin:8px 8px 8px 8px;
+  text-decoration: none;
+}
+
 }
 
 .menu-bottom {
