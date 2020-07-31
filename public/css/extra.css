@@ -1,9 +1,31 @@
+#container header {border:1px solid black;padding:0px 5px 0px 5px;background:#ffd;}
+
+#container nav ul li {background:#fff;}
+#container nav ul l1 {color:white;}
+#container nav ul li a:link {color: red !important;}
+#container nav ul li a:visited {color: blue !important;}
+#container nav ul li a:hover {color: green  !important;}
+#container nav ul li a.active {border-bottom: 0.05em solid red;}
+
+
+@media only screen and (max-width:400px) {
+#container nav {width:300px;height:200px;}
+#container nav  {
+font-size: 12px;
+white-space: normal;
+    float: left;
+    width: 88%;
+    height: auto;
+    word-wrap: break-word;}
+}
+
 .menu-bottom {
 
 margin-left:auto;
 margin-right:auto;
 width:500px;
 padding-left:10px;
+
 }
 .menu-bottom ul {
 
