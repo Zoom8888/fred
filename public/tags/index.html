@@ -54,41 +54,19 @@
     </header>
 
     
-<nav>
-    <ul>
-        
-        <li>
-            <a class="" href="/">
-                <i class="fa-li fa  fa-lg"></i><span> Home</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="/comments/">
-                <i class="fa-li fa  fa-lg"></i><span>Comments</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="/posts/create-clickable-script/">
-                <i class="fa-li fa  fa-lg"></i><span>Create a clickable script</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="/posts/deploy-script/">
-                <i class="fa-li fa  fa-lg"></i><span>Simple deploy script</span>
-            </a>
-        </li>
-        
-        <li>
-            <a class="" href="/posts/testing/">
-                <i class="fa-li fa  fa-lg"></i><span>Testing it all...</span>
-            </a>
-        </li>
-        
-    </ul>
-</nav>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="/" class="active">Home</a>
+  <a href="/comments" class="active">Load Comments</a>
+  <a href="/posts">Posts</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 
     <main>
@@ -141,6 +119,17 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
+<script>
+ 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 
 </html>

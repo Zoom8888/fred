@@ -5,10 +5,20 @@
    <link>https://www.zoom8888.com/</link>
    <description>Recent content in Home on Andrews Blog</description>
    <generator>Hugo -- gohugo.io</generator>
-   <lastBuildDate>Thu, 30 Jul 2020 11:54:42 +1000</lastBuildDate>
+   <lastBuildDate>Sat, 01 Aug 2020 09:39:40 +1000</lastBuildDate>
    
        <atom:link href="https://www.zoom8888.com/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>Creating a Post</title>
+       <link>https://www.zoom8888.com/posts/creating-a-post/</link>
+       <pubDate>Sat, 01 Aug 2020 09:39:40 +1000</pubDate>
+       
+       <guid>https://www.zoom8888.com/posts/creating-a-post/</guid>
+       <description>&lt;p&gt;andrew$ hugo new posts/creating-a-post.md&lt;/p&gt;
+</description>
+     </item>
    
      <item>
        <title>Testing it all...</title>
