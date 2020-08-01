@@ -6,14 +6,18 @@
   <title>Andrews Blog</title>
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="A site for beginners to discuss their issues with Hugo, Github and Netlify. Last updated 30 July 2020." />
+<meta name="description" content="A website for beginners to discuss their issues with Hugo, Github and Netlify." />
 <meta name="author" content="Andrew" />
 <meta property="fb:app_id" content="295947031138064"/>
 <meta property="fb:admins" content="248890362704379"/><meta property="og:title" content="Simple deploy script" />
-<meta property="og:description" content="A script to automatically push to Github, then deploy to Netlify. To display the code correctly be sure to click the &ldquo;Read more&rdquo; tag below.
-cd /
+<meta property="og:description" content="A script to automatically push to Github, then deploy to Netlify. cd /
 cd your_directory
-rm -rf public" />
+rm -rf public
+hugo
+git init
+git add public
+git commit -m &lsquo;First commit&rsquo;
+git remote add origin https://github." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.zoom8888.com/posts/deploy-script/" />
 <meta property="article:published_time" content="2020-07-26T11:54:42+10:00" />
@@ -21,10 +25,14 @@ rm -rf public" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Simple deploy script"/>
-<meta name="twitter:description" content="A script to automatically push to Github, then deploy to Netlify. To display the code correctly be sure to click the &ldquo;Read more&rdquo; tag below.
-cd /
+<meta name="twitter:description" content="A script to automatically push to Github, then deploy to Netlify. cd /
 cd your_directory
-rm -rf public"/>
+rm -rf public
+hugo
+git init
+git add public
+git commit -m &lsquo;First commit&rsquo;
+git remote add origin https://github."/>
 
 <meta name="generator" content="Hugo 0.72.0" />
     
@@ -56,7 +64,7 @@ rm -rf public"/>
              </li>
       </ul>
       
-      <p><em>A site for beginners like me to discuss our issues with Hugo, Github and Netlify. The comments load on demand, click the menu item to read or add a comment. Last updated 30 July 2020.</em></p>
+      <p><em>A website for beginners like me to discuss our issues with Hugo, Github and Netlify. The comments load on demand, click the menu item to read or add a comment.</em></p>
       
     </header>
 
@@ -105,7 +113,6 @@ rm -rf public"/>
 
 
     <h3 id="a-script-to-automatically-push-to-github-then-deploy-to-netlify">A script to automatically push to Github, then deploy to Netlify.</h3>
-<p>To display the code correctly be sure to click the &ldquo;Read more&rdquo; tag below.</p>
 <p>cd /</p>
 <p>cd your_directory</p>
 <p>rm -rf public</p>

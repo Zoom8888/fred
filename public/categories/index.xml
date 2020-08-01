@@ -15,7 +15,8 @@
        <pubDate>Sat, 01 Aug 2020 09:39:40 +1000</pubDate>
        
        <guid>https://www.zoom8888.com/posts/creating-a-post/</guid>
-       <description>&lt;p&gt;andrew$ hugo new posts/creating-a-post.md&lt;/p&gt;
+       <description>&lt;p&gt;Under construction.&lt;/p&gt;
+&lt;p&gt;andrew$ hugo new posts/creating-a-post.md&lt;/p&gt;
 </description>
      </item>
    
@@ -41,7 +42,7 @@
 &lt;p&gt;&lt;img src=&#34;https://www.zoom8888.com/img/test/webpage.png&#34; alt=&#34;Image Title&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Check site loading speed. Less than one second fully loaded is what you need.&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;&lt;a href=&#34;https://search.google.com/&#34;&gt;https://search.google.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://search.google.com/search-console/welcome&#34;&gt;https://search.google.com/search-console/welcome&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.zoom8888.com/img/test/Google_search.png&#34; alt=&#34;Image Title&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Check that your analytics code and sitemap.xml are being read correctly by Google. Looks good so far.&lt;/p&gt;
@@ -69,7 +70,7 @@
        <pubDate>Sun, 26 Jul 2020 12:10:58 +1000</pubDate>
        
        <guid>https://www.zoom8888.com/posts/create-clickable-script/</guid>
-       <description>&lt;p&gt;Using Textedit or similar create a file on your Desktop and call it:&lt;/p&gt;
+       <description>&lt;p&gt;Using Coteditor or similar create a file on your Desktop and call it:&lt;/p&gt;
 &lt;p&gt;myscript.command.sh&lt;/p&gt;
 &lt;p&gt;Then enter your lines of code, for example:&lt;br&gt;
 cd /&lt;br&gt;
@@ -91,7 +92,6 @@ chmod +x myscript.command&lt;/p&gt;
        
        <guid>https://www.zoom8888.com/posts/deploy-script/</guid>
        <description>&lt;h3 id=&#34;a-script-to-automatically-push-to-github-then-deploy-to-netlify&#34;&gt;A script to automatically push to Github, then deploy to Netlify.&lt;/h3&gt;
-&lt;p&gt;To display the code correctly be sure to click the &amp;ldquo;Read more&amp;rdquo; tag below.&lt;/p&gt;
 &lt;p&gt;cd /&lt;/p&gt;
 &lt;p&gt;cd your_directory&lt;/p&gt;
 &lt;p&gt;rm -rf public&lt;/p&gt;
