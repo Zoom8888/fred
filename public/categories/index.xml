@@ -18,12 +18,17 @@
        <description>&lt;p&gt;Create a new post using terminal.&lt;/p&gt;
 &lt;p&gt;Navigate to the folder containing your Hugo files.&lt;/p&gt;
 &lt;p&gt;cd /&lt;/p&gt;
-&lt;p&gt;cd your_hugo_folder&lt;/p&gt;
+&lt;p&gt;cd your_hugo_folder/content&lt;/p&gt;
 &lt;p&gt;ls -l&lt;/p&gt;
 &lt;p&gt;Verify that you have a &amp;ldquo;posts&amp;rdquo; folder, note that the folder name is &amp;ldquo;posts&amp;rdquo; plural.&lt;/p&gt;
+&lt;p&gt;cd /&lt;/p&gt;
+&lt;p&gt;cd your_hugo_folder&lt;/p&gt;
 &lt;p&gt;andrew$ hugo new posts/creating-a-post.md&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.zoom8888.com/img/new_post/posts.png&#34; alt=&#34;Image-Title&#34;&gt;
-You should see your new post listed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.zoom8888.com/img/new_post/posts.png&#34; alt=&#34;Image-Title&#34;&gt;&lt;/p&gt;
+&lt;p&gt;cd content&lt;/p&gt;
+&lt;p&gt;cd posts&lt;/p&gt;
+&lt;p&gt;ls -l&lt;/p&gt;
+&lt;p&gt;You should see your new post listed.&lt;/p&gt;
 </description>
      </item>
    
