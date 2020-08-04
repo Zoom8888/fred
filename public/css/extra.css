@@ -124,3 +124,19 @@ display: inline-block;
 .menu-bottom .active {
   background-color: red;
 }
+
+.img-sm {
+  max-height: 300px;
+}
+
+.img-sm img{
+  max-height:300px
+}
+
+.img-lg {
+  max-height: 500px;
+}
+
+.img-lg img{
+  max-height:500px
+}
