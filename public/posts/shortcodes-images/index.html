@@ -13,7 +13,7 @@
 
 <meta property="og:title" content="Andrew's Computer Blog" />
 <meta property="og:description" content="Improve your computer skills." />
-<meta property="og:image" content="https://www.zoom8888.com/zoom_og.png" /><meta property="og:title" content="Shortcodes-images" />
+<meta property="og:image" content="https://www.zoom8888.com/zoom_og.png" /><meta property="og:title" content="Shortcodes - images" />
 <meta property="og:description" content="layouts/shortcodes/img.html
 {{/* get file that matches the filename as specified as src=&rdquo;&rdquo; in shortcode */}} {{ $src := .Page.Resources.GetMatch (printf &ldquo;*%s*&rdquo; (.Get &ldquo;src&rdquo;)) }}
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}" />
@@ -23,14 +23,14 @@
 <meta property="article:modified_time" content="2020-08-04T18:39:17+10:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Shortcodes-images"/>
+<meta name="twitter:title" content="Shortcodes - images"/>
 <meta name="twitter:description" content="layouts/shortcodes/img.html
 {{/* get file that matches the filename as specified as src=&rdquo;&rdquo; in shortcode */}} {{ $src := .Page.Resources.GetMatch (printf &ldquo;*%s*&rdquo; (.Get &ldquo;src&rdquo;)) }}
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}"/>
 
 <meta name="generator" content="Hugo 0.72.0" />
     
-
+  <link rel="canonical" href="https://wwww.zoom8888.com" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://www.zoom8888.com/fontawesome/css/all.min.css" />
   
@@ -82,31 +82,12 @@
 
 
 
-
-<article>
-
-    <h1>Shortcodes-images</h1>
-
-    
-      <aside>
-    <ul>
-        <li>
-            <time class="post-date" datetime="2020-08-04T18:39:17&#43;10:00">Aug 4, 2020</time>
-        </li>
-        
-
-        
-
-        <li>2 minutes read</li>
-    </ul>
-</aside>
-
-    
-
-    
-
-
-    <p>layouts/shortcodes/img.html</p>
+<main>
+    <article>
+    <header>
+        <h2>Shortcodes - images</h2>
+    </header>
+        <p>layouts/shortcodes/img.html</p>
 <p>{{/* get file that matches the filename as specified as src=&rdquo;&rdquo; in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf &ldquo;*%s*&rdquo; (.Get &ldquo;src&rdquo;)) }}</p>
 <p>{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}</p>
@@ -151,27 +132,11 @@ src=&rdquo;{{ $src.RelPermalink }}&rdquo;
 <p>{{/* &lt; img src=&quot;posts.png&rdquo; alt=&quot;Creating-a-post&rdquo; */ &gt;}} without the /* */</p>
 <p>A work in progress&hellip;</p>
 
-
-</article>
-
-
-<section class="post-nav">
-    <ul>
-        
-        <li>
-            <a href="https://www.zoom8888.com/posts/creating-a-post/"><i class="fa fa-chevron-circle-left"></i> Creating a Post - Hugo</a>
-        </li>
-        
-        
-    </ul>
-</section>
-  
-    
-    
-  
-
-
-
+    </article>
+    <aside>
+        <nav id="TableOfContents"></nav>
+    </aside>
+</main>
 
 
 </main>
