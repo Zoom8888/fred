@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://www.zoom8888.com/sitemap.xml
